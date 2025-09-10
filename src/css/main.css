@@ -1,1 +1,50 @@
 /* Your CSS here. */
+.gray-square {
+    width: 600px; 
+    height: 600px; 
+    background-color: #808080; 
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.gray-square-img img {
+    /* margin: auto; */
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 20px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gray-square-icon img {
+    /* margin: auto; */
+    padding-left: 190px;
+    width: 40px;
+    height: 40px;
+    /* margin-top: 20px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gray-square h1 {
+  text-align: center;
+  color: white;
+}
+
+
+.gray-square h2 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  color: white;
+}
+.row {
+  display: flex; 
+  flex-direction: row; 
+  /* justify-content: space-around;  */
+  align-items: center; 
+}
